@@ -13,7 +13,7 @@ export default function InputText({placeHolder}){
     return(
         <>
             <input type="text" placeholder={placeHolder} value={valor} onChange={handleChange} />
-            {erro && <p>Campo não pode estar vazio!</p>};
+            {erro && <p>Campo não pode estar vazio!</p>}
         </>
     );
 }

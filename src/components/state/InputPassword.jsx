@@ -11,7 +11,7 @@ export default function InputPassword({placeHolder}){
     return(
         <>
             <input type="password" placeholder={placeHolder} value={senha} onChange={handleChange}/>
-            {(senha !== "") && <p>Senha digitada:</p>}
+            {(senha !== "") && <p>Senha digitada: {senha}</p>}
         </>
     );
 }
